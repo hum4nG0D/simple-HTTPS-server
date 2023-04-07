@@ -12,10 +12,19 @@ You will now have a `server.pem` in your directory.
 
 ### Examples:
 
-Make sure to put the path of `server.pem` in the script. Or you can put them in the same directory.
+Make sure to put the path of `server.pem` in the script. Then create a new directory called `web`.
 
-`home/user/www $> python3 simple-HTTPS-server.py`
+Put the script and server.pem in www directory like:
 
-You can also create a new directory for hosting purpose. In that case:
+`/home/user/www/server.pem`
+
+`/home/user/www/simple-HTTPS-server.py`
+
+Then `cd` into `web` directory and run the script:
 
 `home/user/www/web $> python3 ../simple-HTTPS-server.py`
+
+![server](/images/server.png)
+
+![access](/images/access.png)
+
